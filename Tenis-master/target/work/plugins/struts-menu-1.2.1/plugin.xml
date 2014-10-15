@@ -1,0 +1,20 @@
+<plugin name='struts-menu' version='1.2.1' grailsVersion='1.3.5 &gt; *'>
+  <author>Colm Brady</author>
+  <authorEmail>colm.brady.at.gmail.com</authorEmail>
+  <title>Basic Grails wrapper for Struts Menu</title>
+  <description>\
+A Grails wrapper around Struts Menu. Users are expected to implement their own menu impls, some samples included are YUI menu and Dojo menu.
+</description>
+  <documentation>http://grails.org/plugin/struts-menu</documentation>
+  <resources>
+    <resource>BootStrap</resource>
+    <resource>BuildConfig</resource>
+    <resource>Config</resource>
+    <resource>DataSource</resource>
+    <resource>UrlMappings</resource>
+    <resource>spring.resources</resource>
+    <resource>grails.plugin.strutsmenu.taglibs.MenuDisplayTagLib</resource>
+  </resources>
+  <dependencies />
+  <behavior />
+</plugin>
